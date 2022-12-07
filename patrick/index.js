@@ -7,9 +7,6 @@ const PORT = 5000;
 
 app.use(bodyParser.json());
 app.use('/books', booksRoutes);
-
-app.get('/', (req, res) => res.send('Homepage (GET REQ)'));
-
-
+app.get('/', (req, res) => res.send('Testing homepage (GET REQ)'));
 
 app.listen(PORT, () => console.log(`Server listening on port ${PORT}`))
