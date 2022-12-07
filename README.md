@@ -12,3 +12,6 @@ We decided to create our own seperate CRUD-servers within our own folders in thi
 So, individual servers but sharing repo for the sake of helping eachother (a.k.a succeeding).
 
 / Patrick
+
+
+Contributors: Elliot, Johanna, Linn, Patrick, Rayhana
