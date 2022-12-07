@@ -38,11 +38,15 @@ My server was designed to handle books, for example:
 - Nodemon should now start and listen on localhost, port 5000.
 - Open Insomnia and use the links and methods posted below to test the CRUD functionality.  
 ```  
-[GET]       http://localhost:5000/books  
-[GET]       http://localhost:5000/books/id  
-[POST]      http://localhost:5000/books  
-[DELETE]    http://localhost:5000/books/id  
-[PATCH]     http://localhost:5000/books/id
+[GET]       http://localhost:5000/books         // Get the entire list of books.
+[GET]       http://localhost:5000/books/id      // Get a specific book based off of its' ID.
+[POST]      http://localhost:5000/books         // Add a book to the database (array) using the code snippet showcased above (see "Designed purpose" section).
+[DELETE]    http://localhost:5000/books/id      // Delete a book based off of its' ID.
+[PATCH]     http://localhost:5000/books/id      // Update a book based off of its' ID. Use part of the code snippet from the "Designed purpose" section.
+                                                   For example:
+                                                   {
+                                                        "bookTitle": "Too Much War and Not Enough Peace"
+                                                   }
 ```
 
 Thanks for visiting my project!
