@@ -28,8 +28,15 @@ My server was designed to handle books, for example:
 
 ...as well as the possibility to manipulate these (with the help of [uuid](https://www.npmjs.com/package/uuid)) in ways that a CRUD server is supposed to.
 
-<img src="https://miro.medium.com/max/1400/1*A-HIbO79ImSNFy8_bkCcLg.jpeg" height="200" width="400"/>    
+<img src="https://miro.medium.com/max/1400/1*A-HIbO79ImSNFy8_bkCcLg.jpeg" height="200" width="400"/>  
 
+### How to get started:
+---
+- Clone repo.
+- Navigate to the workspace (the downloaded repo)
+- Type: ``` npm start ```
+- Nodemon should now start and listen on localhost, port 5000.
+- Open Insomnia and use the links and methods posted below to test the CRUD functionality.  
 ```  
 [GET]       http://localhost:5000/books  
 [GET]       http://localhost:5000/books/id  
