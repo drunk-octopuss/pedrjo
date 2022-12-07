@@ -34,8 +34,9 @@ My server was designed to handle books, for example:
 ---
 - Clone repo.
 - Navigate to the workspace (the downloaded repo)
+- Type: ``` npm install ```
 - Type: ``` npm start ```
-- Nodemon should now start and listen on localhost, port 5000.
+- The server should now start and print a message that it's listening on port 5000.
 - Open Insomnia and use the links and methods posted below to test the CRUD functionality.  
 ```  
 [GET]       http://localhost:5000/books         // Get the entire list of books.
