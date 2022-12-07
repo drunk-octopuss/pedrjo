@@ -1,14 +1,14 @@
 {
-  "name": "patrick",
+  "name": "patricks-server",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "nodemon index.js"
+  "start": "node index.js"
   },
   "keywords": [],
-  "author": "",
+  "author": "Patrick N.",
   "license": "ISC",
   "dependencies": {
     "express": "^4.18.2",
