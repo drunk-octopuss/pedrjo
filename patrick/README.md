@@ -1,17 +1,19 @@
-# **Patricks** server
+# Patricks server
 ---
-## <u>Why?</u>
-This project was created in order to learn how to create a basic CRUD server as well as how    
+## Why?  
+---
+This project was created in order to learn how to create a basic **CRUD** server as well as how    
 to use it with [Insomnia](https://insomnia.rest/) in order to interact with it.
 
-### <u>CRUD?</u>
+### CRUD?  
+---
 C)reate  
 R)ead  
 U)pdate  
 D)elete
 
-### <u>Designed purpose</u>
-
+### Designed purpose  
+---
 My server was designed to handle books, for example: 
 
 ```json  
@@ -35,3 +37,7 @@ My server was designed to handle books, for example:
 [DELETE]    http://localhost:5000/books/id  
 [PATCH]     http://localhost:5000/books/id
 ```
+
+Thanks for visiting my project!
+
+/ Patrick
