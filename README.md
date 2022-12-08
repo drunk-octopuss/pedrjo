@@ -1,8 +1,8 @@
 
 # pedrjo
-If yall wondering why that name so weird, it's not.
-Patrick, Elliot, Drunk octopuss (Linn), Rayhanna, Johanna
-ok? not weird
+If yall wondering why that name so weird, it's not.  
+Patrick, Elliot, Drunk octopuss (Linn), Rayhanna, Johanna  
+ok? not weird  
 
 Jensen Project Server
 
