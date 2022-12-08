@@ -1,4 +1,3 @@
-
 const  express = require("express")
 const router = express.Router()
 
@@ -6,15 +5,22 @@ const router = express.Router()
 const controller = require('../controller/userController')
 
 
-router.get('/' , controller.getColor) // 
 
-router.get('/:id' , controller.colorById) // 
+router.get('/' , controller.getColor) // get color
 
-router.post('/' , controller.postColor) // 
+router.get('/:id' , controller.colorById) // get color by id
 
-router.put('/:id' , controller.updateColor) // 
+router.post('/' , controller.postColor) // create color
 
-router.delete('/:id' , controller.deleteColor) // 
+router.put('/:id' , controller.updateColor) // update color
+
+router.delete('/:id' , controller.deleteColor) // delete color
+
+
+
+
+
+
 
 module.exports= router
 

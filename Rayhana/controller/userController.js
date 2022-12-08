@@ -1,5 +1,5 @@
-const { application } = require("express")
-const router = require("../routes/userRoutes")
+//const { application } = require("express")
+//const router = require("../routes/userRoutes")
 const uuid = require('uuid')
 const myUId = uuid.v4;
 
