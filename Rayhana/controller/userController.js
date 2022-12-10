@@ -4,7 +4,6 @@ const uuid = require('uuid')
 const myUId = uuid.v4;
 
 // colors array
-
 let colors = [
     {
         firstColor: "Blue",
@@ -16,7 +15,7 @@ let colors = [
    }
 ] 
 
-// GET, view
+// GET, view the data 
 exports.getColor= (req, res) =>{ 
     res.status(200).json({
         message: 'displaying data',
@@ -36,7 +35,7 @@ exports.colorById = (req, res) =>{
 exports.postColor = (req, res) =>{
     const color = req.body 
     colors.push({ ...colors, id: myUId() })             
-    res.send(`color with the name ${color.shade} data added`);
+    res.send(`color with  ${color.shade} shade was added`);
  }
 
 // update
@@ -55,7 +54,7 @@ exports.updateColor = (req, res) =>{
         colorUpdated.shade = shade
     }
 
-    res.send(`color ${id} successfully updated`)
+    res.send(`color ${id} was successfully updated`)
 }
 
 
@@ -63,7 +62,5 @@ exports.updateColor = (req, res) =>{
 exports.deleteColor = (req, res) =>{ 
     const {id} = req.params;
     colors = colors.filter((color) => color.id !== id) 
-    res.send(`color by the id > ${id} < successfully deleted.`)
-
-
+    res.send(`color by the id  ${id} was successfully deleted.`)
 }
