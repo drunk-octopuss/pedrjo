@@ -1,5 +1,5 @@
 ---
-### A simple CRUD API with node.js and express.
+### A simple CRUD API with node.js and express, using *colors* as data.
 
 ![CRUD](https://w3programmers.com/bangla/wp-content/uploads/2017/12/CRUD.png)
 ---
@@ -14,11 +14,11 @@ __*DELETE*__ : deletes a color from the database by using the ``DELETE`` request
 ---
 Following steps to get started:
 
-> ` npm i express `
+  ` npm i express `
 
-> ` npm i nodemon `
+  ` npm i nodemon `
 
->  ` npm i uuid `
+  ` npm i uuid `
 
 
 > Loopback adress: `` https://localhost:3000/api/color ``
