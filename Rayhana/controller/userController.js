@@ -1,5 +1,5 @@
-const { application } = require("express")
-const router = require("../routes/userRoutes")
+//const { application } = require("express")
+//const router = require("../routes/userRoutes")
 const uuid = require('uuid')
 const myUId = uuid.v4;
 
@@ -12,11 +12,11 @@ let colors = [
     },
    {
      secondColor: "Black",
-     shade: "D+ark"
+     shade: "Dark"
    }
 ] 
 
-// GET, display
+// GET, view
 exports.getColor= (req, res) =>{ 
     res.status(200).json({
         message: 'displaying data',
