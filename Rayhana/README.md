@@ -10,6 +10,7 @@
 *UPDATE* updates a color/shade by using ``PUT`` request and its unique id.
 
 *DELETE* deletes a color from the database by using the ``DELETE`` request and its unique id.
+
 ---
 Following steps to get started:
 
