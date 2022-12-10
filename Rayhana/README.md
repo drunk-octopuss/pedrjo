@@ -3,13 +3,13 @@
 
 ![CRUD](https://w3programmers.com/bangla/wp-content/uploads/2017/12/CRUD.png)
 ---
-*CREATE* creates a color to the database using the ``POST`` request.
+__*CREATE*__ creates a color to the database using the ``POST`` request.
 
-*READ* displays all the colors from the database by using ``GET`` request.
+__*READ*__ displays all the colors from the database by using ``GET`` request, and gets also a specific id.
 
-*UPDATE* updates a color/shade by using ``PUT`` request and its unique id.
+__*UPDATE*__ updates a color/shade by using ``PUT`` request and its unique id.
 
-*DELETE* deletes a color from the database by using the ``DELETE`` request and its unique id.
+__*DELETE*__ deletes a color from the database by using the ``DELETE`` request and its unique id.
 
 ---
 Following steps to get started:
