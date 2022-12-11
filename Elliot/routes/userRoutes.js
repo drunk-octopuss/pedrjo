@@ -6,7 +6,6 @@ var text = [
   {
     id: "1",
     text: "hello!",
-    font: "Futura",
   },
 ];
 router.get("/contact", (req, res) => {
@@ -34,5 +33,36 @@ router.post("/contact", (req, res) => {
     });
   }
 });
+router.delete("/contact/:id", (req, res) => {
+  var id = req.params.id;
+  var newText = text.filter((el) => el.id != id);
+  text = newText;
 
+  res.send({
+    success: true,
+    message: "text deleted successfully",
+  });
+});
+router.put("/contact/:id", (req, res) => {
+  var id = req.params.id;
+  var name = req.body.name;
+
+  if (name) {
+    var index = text.findIndex((el) => el.id == id);
+
+    text[index] = {
+      ...text[index],
+      name: name,
+    };
+    res.send({
+      success: true,
+      message: "data updated successfully",
+    });
+  } else {
+    res.send({
+      success: false,
+      message: "validation error",
+    });
+  }
+});
 module.exports = router;
