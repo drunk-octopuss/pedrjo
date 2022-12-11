@@ -5,22 +5,22 @@ const router = express.Router();
 var text = [
   {
     id: "1",
-    text: "hello!",
+    filling: "hello!",
   },
 ];
 router.get("/contact", (req, res) => {
   res.status(200).json({
     success: true,
-    message: "data fatched successfully",
+    message: "data fetched successfully",
     data: text,
   });
 });
 router.post("/contact", (req, res) => {
-  var text = req.body.text;
+  var filling = req.body.filling;
   if (text) {
     text.push({
       id: (text.length + 1).toString(),
-      text: text,
+      filling: filling,
     });
     res.send({
       success: true,
@@ -45,14 +45,14 @@ router.delete("/contact/:id", (req, res) => {
 });
 router.put("/contact/:id", (req, res) => {
   var id = req.params.id;
-  var name = req.body.name;
+  var filling = req.body.filling;
 
-  if (name) {
+  if (filling) {
     var index = text.findIndex((el) => el.id == id);
 
     text[index] = {
       ...text[index],
-      name: name,
+      filling: filling,
     };
     res.send({
       success: true,
